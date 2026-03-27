@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Entity Insight Studio
 
-## Getting Started
+Entity Insight Studio is a focused Next.js demo for exploring entity metrics, relationship graphs, and time-based insight from a small fixture-backed dataset.
 
-First, run the development server:
+The repo is intentionally narrow. It preserves the strongest ideas from a larger internal analytics product:
+
+- App Router structure
+- dashboard composition patterns
+- relationship graph visualization
+- data-driven charts
+- typed data helpers
+
+It removes everything that would distract from a public demo:
+
+- auth and account flows
+- admin and upload tooling
+- deployment variants
+- internal services
+- business-specific branding and terminology
+
+## Demo Flows
+
+- `Overview dashboard`: profile, KPIs, peer context, footprint distribution, and tracked assets
+- `Relationship graph`: ownership and control structure for the selected entity
+- `Scenario explorer`: baseline vs planned pathways against benchmark trajectories
+
+## Tech Stack
+
+- Next.js App Router
+- TypeScript
+- Tailwind CSS
+- Recharts
+- React Flow
+
+## Local Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Verification
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run verify:fixtures
+npm run lint
+npm run build
+```
 
-## Learn More
+## Data Model
 
-To learn more about Next.js, take a look at the following resources:
+All runtime data is checked into `public/demo-data`:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `entities.json`
+- `ownership.json`
+- `assets.json`
+- `scenarios.json`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The app reads these fixtures through typed helpers in `lib/demo-data.ts`. Thin API routes expose entity options, overview payloads, ownership payloads, and scenario series so the visual components stay simple.
 
-## Deploy on Vercel
+## Scope Notes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- The dataset uses invented entity names with public-style metric shapes.
+- The app does not require `.env` configuration.
+- The app is designed to render fully from local fixtures.

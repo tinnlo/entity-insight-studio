@@ -1,0 +1,86 @@
+[
+  {
+    "rootId": "aster-grid-holdings",
+    "sourceId": "atlas-infrastructure-partners",
+    "targetId": "aster-grid-holdings",
+    "percentage": 42,
+    "category": "owner"
+  },
+  {
+    "rootId": "aster-grid-holdings",
+    "sourceId": "blue-river-capital",
+    "targetId": "aster-grid-holdings",
+    "percentage": 19,
+    "category": "owner"
+  },
+  {
+    "rootId": "aster-grid-holdings",
+    "sourceId": "aster-grid-holdings",
+    "targetId": "meridian-renewables",
+    "percentage": 76,
+    "category": "subsidiary"
+  },
+  {
+    "rootId": "aster-grid-holdings",
+    "sourceId": "aster-grid-holdings",
+    "targetId": "harbor-transmission-services",
+    "percentage": 100,
+    "category": "subsidiary"
+  },
+  {
+    "rootId": "aster-grid-holdings",
+    "sourceId": "aster-grid-holdings",
+    "targetId": "north-coast-storage",
+    "percentage": 61,
+    "category": "subsidiary"
+  },
+  {
+    "rootId": "atlas-infrastructure-partners",
+    "sourceId": "atlas-infrastructure-partners",
+    "targetId": "aster-grid-holdings",
+    "percentage": 42,
+    "category": "subsidiary"
+  },
+  {
+    "rootId": "atlas-infrastructure-partners",
+    "sourceId": "atlas-infrastructure-partners",
+    "targetId": "harbor-transmission-services",
+    "percentage": 24,
+    "category": "subsidiary"
+  },
+  {
+    "rootId": "blue-river-capital",
+    "sourceId": "blue-river-capital",
+    "targetId": "aster-grid-holdings",
+    "percentage": 19,
+    "category": "subsidiary"
+  },
+  {
+    "rootId": "blue-river-capital",
+    "sourceId": "blue-river-capital",
+    "targetId": "north-coast-storage",
+    "percentage": 14,
+    "category": "subsidiary"
+  },
+  {
+    "rootId": "meridian-renewables",
+    "sourceId": "aster-grid-holdings",
+    "targetId": "meridian-renewables",
+    "percentage": 76,
+    "category": "owner"
+  },
+  {
+    "rootId": "harbor-transmission-services",
+    "sourceId": "aster-grid-holdings",
+    "targetId": "harbor-transmission-services",
+    "percentage": 100,
+    "category": "owner"
+  },
+  {
+    "rootId": "north-coast-storage",
+    "sourceId": "aster-grid-holdings",
+    "targetId": "north-coast-storage",
+    "percentage": 61,
+    "category": "owner"
+  }
+]

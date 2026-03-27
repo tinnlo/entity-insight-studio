@@ -1,0 +1,8 @@
+import { getOwnershipPayload } from "@/lib/demo-data";
+
+export async function GET(request: Request) {
+  const { searchParams } = new URL(request.url);
+  const slug = searchParams.get("entity") ?? undefined;
+  const ownership = await getOwnershipPayload(slug);
+  return Response.json(ownership);
+}

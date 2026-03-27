@@ -1,17 +1,21 @@
 {
-  "name": "entityinsightstudio-12635",
+  "name": "entity-insight-studio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "verify:fixtures": "node scripts/verify-fixtures.mjs"
   },
   "dependencies": {
+    "@xyflow/react": "^12.9.3",
+    "lucide-react": "^0.552.0",
     "next": "16.2.1",
-    "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "recharts": "^3.2.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

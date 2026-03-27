@@ -1,0 +1,182 @@
+[
+  {
+    "id": "aster-grid-holdings",
+    "slug": "aster-grid-holdings",
+    "name": "Aster Grid Holdings",
+    "shortName": "Aster Grid",
+    "sector": "Energy Infrastructure",
+    "region": "North America",
+    "headquarters": "Chicago",
+    "summary": "Aster Grid Holdings is the focal demo entity: a multi-region transmission and storage operator balancing legacy grid assets with a measured transition plan.",
+    "focus": "Management is redirecting capex from gas-heavy peaking assets toward storage, dispatch software, and transmission modernization while keeping owner concentration below a takeover threshold.",
+    "highlights": [
+      "Grid-heavy operating mix with a growing storage allocation.",
+      "Visible owner stack and controlled subsidiaries for relationship analysis.",
+      "Scenario curves calibrated to show baseline drag vs managed transition."
+    ],
+    "kpis": {
+      "recurringRevenueBillions": 8.4,
+      "trackedAssets": 12,
+      "controlledCapacityGw": 19.6,
+      "transitionScore": 72,
+      "portfolioIntensity": 0.34,
+      "yoyIntensityChangePct": -9
+    },
+    "peerComparison": [
+      { "label": "Aster", "value": 72 },
+      { "label": "Meridian", "value": 79 },
+      { "label": "Harbor", "value": 63 },
+      { "label": "North Coast", "value": 68 }
+    ]
+  },
+  {
+    "id": "atlas-infrastructure-partners",
+    "slug": "atlas-infrastructure-partners",
+    "name": "Atlas Infrastructure Partners",
+    "shortName": "Atlas Partners",
+    "sector": "Infrastructure Capital",
+    "region": "Europe",
+    "headquarters": "Amsterdam",
+    "summary": "Atlas Infrastructure Partners is a long-duration capital sponsor with concentrated positions in grid and transport platforms.",
+    "focus": "Atlas favors board-level influence, measured decarbonization pacing, and yield preservation through regulated network assets.",
+    "highlights": [
+      "Infrastructure sponsor with long-duration capital.",
+      "Board influence across multiple operating platforms.",
+      "Lower transition score due to conservative capital pacing."
+    ],
+    "kpis": {
+      "recurringRevenueBillions": 5.1,
+      "trackedAssets": 7,
+      "controlledCapacityGw": 7.2,
+      "transitionScore": 58,
+      "portfolioIntensity": 0.41,
+      "yoyIntensityChangePct": -4
+    },
+    "peerComparison": [
+      { "label": "Atlas", "value": 58 },
+      { "label": "Blue River", "value": 65 },
+      { "label": "North Coast", "value": 68 },
+      { "label": "Meridian", "value": 79 }
+    ]
+  },
+  {
+    "id": "blue-river-capital",
+    "slug": "blue-river-capital",
+    "name": "Blue River Capital",
+    "shortName": "Blue River",
+    "sector": "Transition Capital",
+    "region": "North America",
+    "headquarters": "Toronto",
+    "summary": "Blue River Capital is a minority growth investor focused on storage, digital dispatch, and balance-sheet optimization.",
+    "focus": "The firm uses minority positions to accelerate transition capex and tends to push operating companies toward more aggressive decarbonization curves.",
+    "highlights": [
+      "Minority investor with active transition posture.",
+      "Concentrated exposure to storage and digital assets.",
+      "Faster modeled benchmark convergence than Atlas."
+    ],
+    "kpis": {
+      "recurringRevenueBillions": 2.8,
+      "trackedAssets": 5,
+      "controlledCapacityGw": 3.1,
+      "transitionScore": 65,
+      "portfolioIntensity": 0.29,
+      "yoyIntensityChangePct": -7
+    },
+    "peerComparison": [
+      { "label": "Blue River", "value": 65 },
+      { "label": "Atlas", "value": 58 },
+      { "label": "Aster", "value": 72 },
+      { "label": "Meridian", "value": 79 }
+    ]
+  },
+  {
+    "id": "meridian-renewables",
+    "slug": "meridian-renewables",
+    "name": "Meridian Renewables",
+    "shortName": "Meridian",
+    "sector": "Renewable Operations",
+    "region": "Europe",
+    "headquarters": "Copenhagen",
+    "summary": "Meridian Renewables is a controlled operating platform with wind, storage, and balancing assets across Northern Europe.",
+    "focus": "The business is used as the faster-moving transition arm inside the network and sets the upper bound for achievable intensity improvements.",
+    "highlights": [
+      "Controlled subsidiary with strong transition score.",
+      "Storage-heavy growth pipeline.",
+      "Most aggressive decline in emissions intensity."
+    ],
+    "kpis": {
+      "recurringRevenueBillions": 3.3,
+      "trackedAssets": 9,
+      "controlledCapacityGw": 8.4,
+      "transitionScore": 79,
+      "portfolioIntensity": 0.21,
+      "yoyIntensityChangePct": -11
+    },
+    "peerComparison": [
+      { "label": "Meridian", "value": 79 },
+      { "label": "Aster", "value": 72 },
+      { "label": "North Coast", "value": 68 },
+      { "label": "Harbor", "value": 63 }
+    ]
+  },
+  {
+    "id": "harbor-transmission-services",
+    "slug": "harbor-transmission-services",
+    "name": "Harbor Transmission Services",
+    "shortName": "Harbor",
+    "sector": "Transmission Networks",
+    "region": "Asia Pacific",
+    "headquarters": "Singapore",
+    "summary": "Harbor Transmission Services runs regulated connectors and grid modernization contracts across port-heavy trade corridors.",
+    "focus": "The business stabilizes cash flow but drags on transition speed because of slower asset turnover and multi-jurisdictional permitting.",
+    "highlights": [
+      "Regulated network operator with stable revenue.",
+      "Modernization backlog is large but slow-moving.",
+      "Scenario curve improves steadily rather than sharply."
+    ],
+    "kpis": {
+      "recurringRevenueBillions": 2.6,
+      "trackedAssets": 6,
+      "controlledCapacityGw": 5.8,
+      "transitionScore": 63,
+      "portfolioIntensity": 0.37,
+      "yoyIntensityChangePct": -5
+    },
+    "peerComparison": [
+      { "label": "Harbor", "value": 63 },
+      { "label": "Blue River", "value": 65 },
+      { "label": "Aster", "value": 72 },
+      { "label": "Meridian", "value": 79 }
+    ]
+  },
+  {
+    "id": "north-coast-storage",
+    "slug": "north-coast-storage",
+    "name": "North Coast Storage",
+    "shortName": "North Coast",
+    "sector": "Grid Storage",
+    "region": "North America",
+    "headquarters": "Vancouver",
+    "summary": "North Coast Storage operates utility-scale batteries and dispatch orchestration software tied to load-balancing contracts.",
+    "focus": "Its role in the demo is to show how controlled, software-led entities alter both the relationship graph and the future pathway mix.",
+    "highlights": [
+      "Controlled subsidiary with software-heavy operating model.",
+      "Lower intensity baseline than the parent platform.",
+      "Capex profile front-loads around storage deployments."
+    ],
+    "kpis": {
+      "recurringRevenueBillions": 1.9,
+      "trackedAssets": 5,
+      "controlledCapacityGw": 4.3,
+      "transitionScore": 68,
+      "portfolioIntensity": 0.26,
+      "yoyIntensityChangePct": -8
+    },
+    "peerComparison": [
+      { "label": "North Coast", "value": 68 },
+      { "label": "Harbor", "value": 63 },
+      { "label": "Aster", "value": 72 },
+      { "label": "Meridian", "value": 79 }
+    ]
+  }
+]
