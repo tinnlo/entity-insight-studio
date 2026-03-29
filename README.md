@@ -4,6 +4,12 @@ Entity Insight Studio is a focused Next.js demo for exploring entity metrics, re
 
 This public demo rebuilds a production architectural pattern in a public-safe form. It preserves system design, module boundaries, and execution flow while removing proprietary business logic and internal data.
 
+## Public-Safety Guarantees
+
+- This repository is a demo derived from a production project and is intentionally reduced for public sharing.
+- Safety and security are preserved by removing proprietary logic, internal integrations, credentials, and non-public data.
+- All included data is demo-only and structured to illustrate the product pattern without exposing sensitive implementation details.
+
 ## Portfolio Framing
 
 - `What this demo shows`: a compact analytics studio with an overview dashboard, ownership graph, and scenario explorer over typed local fixtures
