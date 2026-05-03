@@ -46,3 +46,4 @@ HANDOFF.md
 # python
 __pycache__/
 *.pyc
+.opencode/
